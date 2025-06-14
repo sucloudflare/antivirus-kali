@@ -26,8 +26,8 @@
 sudo apt install openjdk-17-jdk</pre>
 
   <h5>2️⃣ Clone o repositório</h5>
-      <pre>git clone https://github.com/seu-usuario/RealTimeVirusAlert.git
-cd RealTimeVirusAlert</pre>
+      <pre>git clone https://github.com/sucloudflare/antivirus-kali.git
+cd antivirus-kali</pre>
 
    <h5>3️⃣ Crie a pasta de quarentena</h5>
        <pre>sudo mkdir /quarantine
