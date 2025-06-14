@@ -69,14 +69,15 @@ chmod +x /tmp/malware.sh
             <h2>🖥️ Rodar como Serviço (Opcional)</h2>
             <h5>Crie o arquivo de serviço:</h5>
             <pre>sudo nano /etc/systemd/system/virus-alert.service</pre>
-
+    
+<strong><p>Substitua o usario pelo o seu</p></strong>
  <h5>Conteúdo:</h5>
      <pre>[Unit]
 Description=Real-Time Virus Alert Service
 After=network.target
 
 
-<strong><p>Substitua o usario pelo o seu</p></strong>
+
 [Service]
 ExecStart=/usr/bin/java -cp /home/usuario/antivirus-kali RealTimeVirusAlert
 Restart=always
