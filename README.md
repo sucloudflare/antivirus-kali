@@ -75,10 +75,12 @@ chmod +x /tmp/malware.sh
 Description=Real-Time Virus Alert Service
 After=network.target
 
+
+<strong><p>Substitua o usario pelo o seu</p></strong>
 [Service]
-ExecStart=/usr/bin/java -cp /home/bruno/RealTimeVirusAlert RealTimeVirusAlert
+ExecStart=/usr/bin/java -cp /home/usuario/antivirus-kali RealTimeVirusAlert
 Restart=always
-User=bruno
+User=usuario
 
 [Install]
 WantedBy=multi-user.target</pre>
