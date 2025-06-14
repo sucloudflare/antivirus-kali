@@ -73,7 +73,7 @@ chmod +x /tmp/malware.sh
 
 
  <h5>Conteúdo:</h5>
- <p><strong>Substitua o usuário pelo o seu</strong></p> 
+ <p><strong>Substitua o usuário pelo o seu:</strong></p> 
      <pre>[Unit]
 Description=Real-Time Virus Alert Service
 After=network.target
