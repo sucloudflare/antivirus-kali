@@ -70,7 +70,8 @@ chmod +x /tmp/malware.sh
             <h5>Crie o arquivo de serviço:</h5>
             <pre>sudo nano /etc/systemd/system/virus-alert.service</pre>
     
-<strong><p>Substitua o usario pelo o seu</p></strong>
+<p><strong>Substitua o usuário pelo o seu</strong></p> 
+
  <h5>Conteúdo:</h5>
      <pre>[Unit]
 Description=Real-Time Virus Alert Service
